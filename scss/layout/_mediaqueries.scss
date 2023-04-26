@@ -1,0 +1,127 @@
+@media (max-width: 800px) {
+    nav {
+
+        flex-direction: row;
+        height: 15vh;
+
+    }
+
+    .destacado {
+        flex-direction: row;
+        align-items: center;
+
+        .destacado div {
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100px;
+            height: 1000px;
+            margin: 20px;
+            border-radius: 3px;
+            border: solid 1px #000000;
+
+        }
+    }
+
+    .contenido {
+        align-items: center;
+        height: 130vh;
+
+        .video {
+            text-align: center;
+            height: 370px;
+            width: 300px;
+
+        }
+
+        .formulario {
+            textarea {
+                width: 375px;
+                height: 150px;
+            }
+        }
+
+        .mapa {
+            width: 400px;
+            height: 150px;
+        }
+    }
+
+
+
+}
+
+@media (max-width: 500px) {
+    .contenedor {
+        width: 375px;
+        background-position: center;
+    }
+
+    nav {
+
+        flex-direction: column;
+        height: 25vh;
+        align-items: center;
+
+    }
+
+    .destacado {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destacado {
+
+        width: 300px;
+        height: 1000px;
+        margin: 20px;
+
+    }
+
+    .reciente {
+        flex-direction: column;
+        align-items: center;
+
+        width: 300px;
+        height: 800px;
+        margin: 20px;
+
+    }
+
+    .mapa iframe {
+        width: 300px;
+        height: 200px;
+        align-items: center;
+    }
+
+    .contenido {
+        align-items: center;
+        height: 130vh;
+
+        .video {
+            text-align: center;
+            height: 500px;
+            width: 375px;
+
+        }
+
+        .formulario {
+            textarea {
+                width: 375px;
+                height: 150px;
+            }
+        }
+
+        .mapa {
+            width: 400px;
+            height: 150px;
+        }
+    }
+
+
+    .grid {
+        width: 300px;
+        height: 300px;
+    }
+
+}

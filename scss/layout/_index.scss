@@ -1,0 +1,145 @@
+main {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+
+
+/*agrego un colo al pasar por un hipervinvulo*/
+
+/*foto del incio*/
+.contenedor {
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assent/img/voguees_moda_tendencias_23394152_zna2xg.jpg);
+}
+
+/*Alineo el texto cambio color y tamaño*/
+.subtitulo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Satisfy-Regular;
+    font-size: 35px;
+    h2{
+        background-image: linear-gradient(to right, rgb(73, 73, 239), rgb(213, 89, 190));
+        background-repeat: no-repeat;
+        background-size: 0% 2%;
+        transition: 0.2s;
+        &:hover {
+            background-size: 100% 5px;
+        }
+    }
+}
+
+.reciente {
+    display: flex;
+    justify-content: center;
+}
+
+/*creo cuadrados de 400px con una altura de 400px*/
+.reciente div {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 3px;
+    border: solid 1px #000000;
+}
+
+/*le agrego fotos al cuadrado*/
+.reciente .fotou {
+    background-image: url(../assent/img/BuzoNuevo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.reciente .fotod {
+    background-image: url(../assent/img/buzo-de-mujer-agnes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.reciente .fotot {
+    background-image: url(../assent/img/1648163732383oversize.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.subtitulod {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Satisfy-Regular;
+    font-size: 35px;
+    h2{
+        background-image: linear-gradient(to right, rgb(73, 73, 239), rgb(213, 89, 190));
+        background-repeat: no-repeat;
+        background-size: 0% 2%;
+
+        transition: 0.2s;
+        &:hover {
+            background-size: 100% 5px;
+        }
+    }
+}
+
+
+/*creo cuadrados de 400px con una altura de 400px*/
+.destacado {
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    .fotou {
+        background-image: url(../assent/img/tendencias-que-se-haran-grandes-invierno-2022-9-1641033819.jpg);
+        background-size: cover;
+        background-position: center;
+        &:hover {
+            // transform: rotateZ(360deg);
+            transform: scale(1.1, 1.1);
+        }
+    }
+
+    .fotod {
+        background-image: url(../assent/img/SEB_4191-copy.jpg);
+        background-size: cover;
+        background-position: center;
+        &:hover {
+            // transform: rotateZ(360deg);
+            transform: scale(1.1, 1.1);
+        }
+    }
+
+    .fotot {
+        background-image: url(../assent/img/prendas-no-pueden-faltar-armario-2-XxXx80.jpg);
+        background-size: cover;
+        background-position: center;
+        &:hover {
+            // transform: rotateZ(360deg);
+            transform: scale(1.1, 1.1);
+        }
+
+    }
+
+}
+
+.destacado div {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 3px;
+    border: solid 1px #000000;
+
+}
+
+/*le agrego fotos al cuadrado*/

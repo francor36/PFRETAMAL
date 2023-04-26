@@ -1,0 +1,84 @@
+main {
+    background-color: aqantiquewhite;
+}
+
+.contenedor {
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assent/img/voguees_moda_tendencias_23394152_zna2xg.jpg);
+
+}
+
+.Descuento {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.subtitulo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Satisfy-Regular;
+    font-size: 35px;
+}
+
+.reciente {
+    display: flex;
+    justify-content: center;
+
+    .fotou {
+        background-image: url(../assent/img/BuzoNuevo.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: 1s;
+
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+    
+    }
+
+    .fotod {
+        background-image: url(../assent/img/buzo-de-mujer-agnes.jpg);
+        background-size: cover;
+        background-position: center;
+
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+    
+    }
+
+    .fotot {
+        background-image: url(../assent/img/1648163732383oversize.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: 1s;
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+    
+
+    }
+
+}
+
+/*creo cuadrados de 400px con una altura de 400px*/
+.reciente div {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 3px;
+    border: solid 1px #000000;
+    
+
+}
