@@ -1,0 +1,10 @@
+@mixin cuadrado{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 3px;
+    border: solid 1px #000000;
+}

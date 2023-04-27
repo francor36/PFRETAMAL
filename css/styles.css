@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "CedarvilleCursive-Regular";
+  src: url("../assent/font/CedarvilleCursive-Regular.ttf");
+}
+@font-face {
+  font-family: "Satisfy-Regular";
+  src: url("../assent/font/Satisfy-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +22,7 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  font-family: Satisfy-Regular;
 }
 nav ul li {
   display: inline-block;

@@ -44,14 +44,7 @@ h1 {
 
 /*creo cuadrados de 400px con una altura de 400px*/
 .reciente div {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 400px;
-    margin: 20px;
-    border-radius: 3px;
-    border: solid 1px #000000;
+@include cuadrado
 }
 
 /*le agrego fotos al cuadrado*/
