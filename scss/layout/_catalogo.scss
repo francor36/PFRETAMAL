@@ -1,13 +1,22 @@
 .fondo {
     height: 100vh;
-}
-
-.grid {
-
-    display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 210px 210px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    grid-gap: 50px 20px;
+
+    .grid {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 200px 200px;
+        grid-gap: 20px 20px;
+        align-content: center;
+        justify-content: center;
+        .card{
+            height: 300px;
+            height: 200px;
+            .card-img-top{
+                background-image: url(/assent/img/buzo-de-mujer-agnes.jpg);
+            }
+        }
+    }
 }

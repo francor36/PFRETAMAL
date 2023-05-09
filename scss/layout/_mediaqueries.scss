@@ -52,6 +52,7 @@
 }
 
 @media (max-width: 500px) {
+
     .contenedor {
         width: 375px;
         background-position: center;
@@ -74,7 +75,11 @@
 
         width: 300px;
         height: 1000px;
-        margin: 20px;
+        margin: auto;
+
+        div{
+            width: 370px;
+        }
 
     }
 

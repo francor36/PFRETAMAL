@@ -14,6 +14,7 @@
 }
 
 nav {
+  z-index: 1;
   width: 100%;
   height: 9vh;
   position: fixed;
@@ -43,6 +44,8 @@ nav ul li a:hover {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   line-height: 50px;
   background-color: rgb(221, 192, 154);
   width: 100%;
@@ -307,7 +310,10 @@ main {
   .destacado {
     width: 300px;
     height: 1000px;
-    margin: 20px;
+    margin: auto;
+  }
+  .destacado div {
+    width: 370px;
   }
   .reciente {
     flex-direction: column;
@@ -370,15 +376,24 @@ main {
 
 .fondo {
   height: 100vh;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 210px 210px;
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+.fondo .grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 20px 20px;
   align-content: center;
-  grid-gap: 50px 20px;
+  justify-content: center;
+}
+.fondo .grid .card {
+  height: 300px;
+  height: 200px;
+}
+.fondo .grid .card .card-img-top {
+  background-image: url(/assent/img/buzo-de-mujer-agnes.jpg);
 }
 
 main {
