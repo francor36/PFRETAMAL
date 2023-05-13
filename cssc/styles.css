@@ -256,36 +256,6 @@ main {
   border: solid 1px #000000;
 }
 
-@media (max-width: 1920px) {
-  .fondo .grid {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 120px 120px;
-    grid-gap: 20px 20px;
-    align-content: center;
-    justify-content: center;
-  }
-  .fondo .grid .fotoun {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid .fotods {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid .fotots {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid .fotocs {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid img {
-    width: 300px;
-    height: 118px;
-  }
-}
 @media (max-width: 800px) {
   nav {
     flex-direction: row;
@@ -304,34 +274,6 @@ main {
     margin: 20px;
     border-radius: 3px;
     border: solid 1px #000000;
-  }
-  .fondo .grid {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 120px 120px;
-    grid-gap: 20px 20px;
-    align-content: center;
-    justify-content: center;
-  }
-  .fondo .grid .fotoun {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid .fotods {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid .fotots {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid .fotocs {
-    width: 300px;
-    height: 118px;
-  }
-  .fondo .grid img {
-    width: 300px;
-    height: 118px;
   }
   .contenido {
     align-items: center;
@@ -402,52 +344,31 @@ main {
     width: 400px;
     height: 150px;
   }
+  .grid {
+    width: 200px;
+    height: 300px;
+  }
+  .grid .ou {
+    background-position: center;
+    width: 100%;
+    height: 266px;
+  }
+  .grid .od {
+    width: 100%;
+    height: 40vh;
+  }
+  .grid .ot {
+    width: 100%;
+    height: 40vh;
+  }
+  .grid .card {
+    width: 200px;
+  }
   .fondo {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .fondo .grid {
-    width: 200px;
-    height: 300px;
-    grid-template-columns: 160px 160px;
-    grid-template-rows: 160px 160px;
-  }
-  .fondo .grid .fotoun {
-    width: 160px;
-    height: 160px;
-  }
-  .fondo .grid .fotods {
-    width: 160px;
-    height: 160px;
-  }
-  .fondo .grid .fotots {
-    width: 160px;
-    height: 160px;
-  }
-  .fondo .grid .fotocs {
-    width: 160px;
-    height: 160px;
-  }
-  .fondo .grid .card {
-    width: 200px;
-  }
-  .fondo .grid img {
-    width: 160px;
-    height: 160px;
-  }
-  .ou {
-    height: 40vh;
-    width: 100%;
-  }
-  .od {
-    height: 40vh;
-    width: 100%;
-  }
-  .ot {
-    height: 40vh;
-    width: 100%;
   }
 }
 .contenido {
@@ -480,6 +401,21 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.fondo .grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 20px 20px;
+  align-content: center;
+  justify-content: center;
+}
+.fondo .grid .card {
+  height: 300px;
+  height: 200px;
+}
+.fondo .grid .card .card-img-top {
+  background-image: url(/assent/img/buzo-de-mujer-agnes.jpg);
 }
 
 main {
